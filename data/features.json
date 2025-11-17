@@ -1,0 +1,11 @@
+{
+  "title": "핵심 기능 (Features)",
+  "description": "P2S2 시스템의 주요 기능",
+  "features_list": [
+    { "name": "투자 성향 분석", "detail": "사용자의 설문 데이터를 기반으로 리스크 선호도 파악" },
+    { "name": "자산 배분 추천", "detail": "성향에 따라 포트폴리오 비율 자동 추천" },
+    { "name": "실시간 모의 투자", "detail": "KOSPI/KOSDAQ API 기반 가상 투자" },
+    { "name": "성과 분석", "detail": "투자 결과 시각화 및 리스크 평가" },
+    { "name": "리포트 제공", "detail": "장기 데이터 기반 투자 습관 분석 리포트 생성" }
+  ]
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ data.title }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <h2>{{ data.title }}</h2>
+    <p>
+      <b>문제:</b> {{ data.problem }}
+    </p>
+    <p>
+      <b>근거:</b>
+    </p>
+    <ul>
+      {% for item in data.evidence %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <p>
+      <b>가치:</b> {{ data.expected_value }}
+    </p>
+    <p><a href="/">← 홈</a></p>
+  </body>
+</html>

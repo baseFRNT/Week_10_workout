@@ -1,0 +1,45 @@
+{
+  "title": "캡스톤 프로젝트 소개",
+  "project": {
+    "code": "P2S2",
+    "name": "P2S2 (Personalized Portfolio Simulation System)",
+    "summary": "투자 성향 분석 기반 맞춤형 포트폴리오 추천 및 모의 투자 시뮬레이터"
+  },
+  "sections": [
+    {
+      "id": "subject",
+      "title": "작품 주제 (Subject)",
+      "page_path": "/subject",
+      "api_path": "/api/subject",
+      "data_file": "subject.json"
+    },
+    {
+      "id": "rationale",
+      "title": "실용적 근거 (Rationale)",
+      "page_path": "/rationale",
+      "api_path": "/api/rationale",
+      "data_file": "rationale.json"
+    },
+    {
+      "id": "features",
+      "title": "핵심 기능 (Features)",
+      "page_path": "/features",
+      "api_path": "/api/features",
+      "data_file": "features.json"
+    },
+    {
+      "id": "environment",
+      "title": "구현 환경 (Environment)",
+      "page_path": "/environment",
+      "api_path": "/api/environment",
+      "data_file": "environment.json"
+    },
+    {
+      "id": "team",
+      "title": "팀 구성 (Team)",
+      "page_path": "/team",
+      "api_path": "/api/team",
+      "data_file": "team.json"
+    }
+  ]
+}

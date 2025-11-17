@@ -1,0 +1,8 @@
+{
+  "title": "팀 구성 (Team)",
+  "members": [
+    { "name": "민병조", "role": "데이터 분석 및 백엔드 개발" },
+    { "name": "유현진", "role": "프론트엔드 개발 및 UI/UX" }
+  ],
+  "collaboration": "GitHub 버전 관리, 주 2회 정기 회의 및 스크럼 진행"
+}

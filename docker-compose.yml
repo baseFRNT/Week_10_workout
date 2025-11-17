@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  p2s2_web:
+    build:
+      context: .
+    container_name: p2s2_flask_app
+    ports:
+      - "80:5000"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+    restart: unless-stopped
+    networks:
+      - p2s2_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  p2s2_network:
+    driver: bridge

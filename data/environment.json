@@ -1,0 +1,9 @@
+{
+  "title": "구현 환경 (Environment)",
+  "frontend": ["HTML", "Bootstrap 5"],
+  "backend": ["Python 3.11", "Flask"],
+  "database": ["Localhost SQLite"],
+  "runtime": ["Docker"],
+  "deployment": ["AWS EC2", "Docker Compose"],
+  "version_control": ["Git", "GitHub"]
+}
